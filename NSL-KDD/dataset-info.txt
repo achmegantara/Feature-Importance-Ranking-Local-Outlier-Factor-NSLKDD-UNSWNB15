@@ -1,0 +1,20 @@
+NSL-KDD Dataset merupakan dataset yang dibuat untuk mengatasi permasalahan dataset pada KDD Cup 99, namun dataset ini masih
+memiliki kelemahan seperti yang diungkapkan oleh McHugh, yaitu:
+    - 
+    -
+    -
+
+KDDTrain+.ARFF = full NSL-KDD train set with binray labels if ARFF format
+KDDTrain+.ARFF = full NSL-KDD train set including attack-type label dan difficulty level in CSV format
+KDDTrain+_20percent = 20% bagian dari KDD train
+KDDTest+ = full NSL KDD test set
+KDDTest21 = bagian dari KDD Test yang tidak berisi data dengan difficulty level 21 
+
+improvement dari KDD'99 CUP dataset:
+    - dataset ini tidak berisi redundant data (pengulangan data/duplikasi data) artinya data yang sama disimpan dalam beberapa file. Sehingga classifier tidak akan mengalami bias 
+    - tidak adanya data duplikat pada test set, sehingga performansi dari learners tidak mengalami bias pada metode yang memiliki tingkat deteksi lebih baik.
+    - jumlah data pada masing - masing level group memiliki jumlah proporsional yang  berbeda dengan original KDD dataset, pada dataset ini data pada masing - masing memiliki jumlah proporsional yang lebih baik. sehingga lebih efisien untuk mendapatkan perbanding evaluasi akurasi pada teknik/metode yang berbeda - beda.
+    - perbandingan antara data training dan data testing memiliki jumlah yang masuk akal, sehingga tidak perlu dilakukan pengambilan nilai secara random untuk melakukan uji coba. Dan data yang dihasilkan akan konsisten dan dapat dibandingkan.
+
+    STATISTICAL OBSERVATION:
+    
