@@ -21,3 +21,6 @@ The successfulness of the machine learning process for Intrusion Detection Syste
 
 ### Gaussian Distribution / Standard Normal Distribution
 <img align="center" src="normal-dist.png">
+
+##if you want to use this code, please cite this:
+
